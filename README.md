@@ -2,7 +2,8 @@
 
 GUIDE combines generative priors, reinforcement learning, and a dual-encoder architecture to significantly improve scalability, reduce computational overhead, and effectively handle both mixed and nonlinear data types. At its core, GUIDE utilizes LLM-generated causal DAGs as initial priors, which provide valuable domain knowledge to guide the causal discovery process. This enables the framework to robustly support continuous and non-continuous data properties, addressing key limitations of traditional algorithms. By integrating these generative priors with reinforcement learning, GUIDE optimizes causal discovery in large-scale and complex datasets, ensuring accurate and efficient results across various real-world scenarios. Notably, the framework incorporates a constrained action space to strategically reduce the computational costs associated with exhaustive exploration, making the approach more efficient and applicable to diverse causal discovery tasks.
 
-![framework](https://github.com/user-attachments/assets/4eecb933-1003-4449-a765-5fa49c250633)
+
+<img width="1180" height="768" alt="Causal DAG Discovery Workflow" src="https://github.com/user-attachments/assets/dfb5476f-2f72-4455-896b-e4a1ded80fdf" />
 
 ## Table of Contents
 
